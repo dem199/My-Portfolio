@@ -200,7 +200,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-   background:  url(../../assets/img/IMG_7486.JPG);
+   background-image:  url(../assets/img/IMG_7486.JPG);
    background-position:center;
    background-size:Cover;
    height: 100vh;
