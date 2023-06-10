@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Opeyemi Olatunbosun</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container hidden">
+          <span class="header__logo-sub">Optimistic</span>
+        </div>
+        <div class="header__main hidden">
+          <ul class="header__links">
+            <li class="header__link-wrapper hidden">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper hidden">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper hidden">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper hidden">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu hidden"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none hidden"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link hidden">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link hidden">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link hidden">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link hidden">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content hidden">
+        <h1 class="heading-primary hidden">Hi, I am Opeyemi Olatunbosun</h1>
+        <div class="home-hero__info">
+          <p class="text-primary hidden">
+            I am a passionate frontend developer based in Lagos, Nigeria. My
+            specialities are <strong>React JS</strong> and
+            <strong>Tailwind CSS</strong>, and I love building apps that are
+            delightful to use.
+          </p>
+        </div>
+        <div class="home-hero__cta hidden">
+          <a href="./#projects" class="btn btn--bg">My projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg hidden">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            All my projects include links to the code and live version. Click
+            the button to learn more about each one.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-content hidden">
+              <h3 class="projects__row-content-title">Ordering App</h3>
+              <p class="projects__row-content-desc">
+                This is an ordering app designed to satisfy your cravings with
+                just a few taps. Whether you're seeking a quick bite or planning
+                a lavish feast, it makes it effortless to explore a world of
+                culinary delights and have them delivered right to your
+                doorstep.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+            <div class="projects__row-img-cont hidden">
+              <img
+                src="./assets/img/regal-cravings.PNG"
+                alt="Regal-Cravings Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-content hidden">
+              <h3 class="projects__row-content-title">Photo Cart</h3>
+              <p class="projects__row-content-desc">
+                Photo cart is a web application that focuses on adding photos to
+                a cart and placing orders. it aims to provide users with a
+                seamless and intuitive experience for browsing and selecting
+                photos for purchase.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+            <div class="projects__row-img-cont hidden">
+              <img
+                src="./assets/img/add-pics-capstone.PNG"
+                alt="photo cart"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-content hidden">
+              <h3 class="projects__row-content-title">Meme generator</h3>
+              <p class="projects__row-content-desc">
+                This meme generator app provides a simple and intuitive way for
+                users to input custom text for the top and bottom sections of
+                the meme. It generates a real-time preview of the meme based on
+                the entered text, allowing users to see how their input
+                transforms into a visual meme.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+            <div class="projects__row-img-cont hidden">
+              <img
+                src="./assets/img/meme-generator.PNG"
+                alt="Meme generator screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-content hidden">
+              <h3 class="projects__row-content-title">Moovie Search App</h3>
+              <p class="projects__row-content-desc">
+                This Movie Search App is a powerful tool for movie enthusiasts
+                to discover, explore, and get information about their favorite
+                films. With its intuitive interface, real-time search
+                functionality, and comprehensive movie database integration, the
+                app offers a seamless experience for movie lovers. Simply enter
+                the movie name, and let the app fetch the details for you.
+                Explore movie titles, posters, release dates, and get a glimpse
+                of what each movie is about. Start your cinematic journey today
+                with the Movie Searcher!"
+              </p>
+              <a
+                href="./project-4.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+            <div class="projects__row-img-cont hidden">
+              <img
+                src="./assets/img/movie-searchapp-react.PNG"
+                alt="Movie-search-app photo"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-content hidden">
+              <h3 class="projects__row-content-title">Tindog App</h3>
+              <p class="projects__row-content-desc">
+                This Tindog App is a fun and interactive platform for dog lovers
+                to discover and connect with their furry friends. With its sleek
+                design, engaging animations, and a wide variety of adorable
+                dogs, Tindog offers an enjoyable and intuitive experience.
+              </p>
+              <a
+                href="./project-5.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+            <div class="projects__row-img-cont hidden">
+              <img
+                src="./assets/img/Tindog-app.PNG"
+                alt="tindog photo"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-content hidden">
+              <h3 class="projects__row-content-title">Speed Typing Game</h3>
+              <p class="projects__row-content-desc">
+                The Speed Typing Game is an exciting and challenging game that
+                tests your typing skills and speed. The objective is to type as
+                many words as possible within a specified time limit. With a
+                countdown timer, real-time word tracking, and a final word count
+                announcement, the game provides an engaging and competitive
+                experience for users.
+              </p>
+              <a
+                href="./project-5.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+            <div class="projects__row-img-cont hidden">
+              <img
+                src="./assets/img/speed-typing-game.PNG"
+                alt="tindog photo"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-content hidden">
+              <h3 class="projects__row-content-title">Movie Watchlist</h3>
+              <p class="projects__row-content-desc">
+                The Movie Search App is a user-friendly application that allows
+                users to search for movies based on their titles. With its
+                intuitive interface and seamless integration with a movie
+                database API, users can easily find detailed information about
+                their favorite films. The app displays movie titles, photos,
+                release dates, overviews, and star ratings, providing users with
+                a comprehensive view of each movie.
+              </p>
+              <a
+                href="./project-5.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+            <div class="projects__row-img-cont hidden">
+              <img
+                src="./assets/img/movie-watchlist.PNG"
+                alt="movie-watchlist photo"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container hidden">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <p>
+              I am a driven frontend developer, I develop web, My specialities
+              are <strong>React JS</strong>, <strong>Tailwind CSS</strong>,
+              <strong>Styled Components</strong>, and I love building apps that
+              are delightful to use.
+            </p>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main hidden">
+            <h3 class="about__content-title">Know me better</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                A web3 enthusiast. My background is in teaching. I have a
+                bachelors degree in Microbiology from University of Ibadan. When
+                I'm not coding, I teach Chemistry.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills hidden">
+            <h3 class="about__content-title">My Skills and Tools</h3>
+            <div class="skills">
+              <div>
+                <img
+                  src="./assets/img/IMG_3272.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+
+                <p>javascript</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3353.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>React</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3339.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>CSS</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3340.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>HTML</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3352.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>ES6</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3350.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>VSCode</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3341.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>Bootstrap</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3342.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>Tailwind CSS</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3344.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>Firebase</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3351.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>Stackoverflow</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3346.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>GitHub</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3348.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>Git</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3349.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>SASS</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3354.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>Figma</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/img/IMG_3345.PNG"
+                  alt=""
+                  class="skills__skill hidden"
+                />
+                <p>Netlify</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container hidden">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Feel free to reach out if you have any inquiries or need further
+            clarification. I would be delighted to schedule a video call to
+            discuss potential projects or brainstorm ideas together. You can
+            contact me by sending an email to olatunbosunopeyemi186035@gmail.com
+            or by directly calling me at +2348176779961. I look forward to
+            hearing from you!
+          </span>
+        </h2>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1 hidden">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Let's connect</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://linkedin.com/in/opeyemi-olatunbosun-85b30b163"
+              >
+                <img
+                  class="main-footer__icon hidden"
+                  src="./assets/img/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/dem199"
+              >
+                <img
+                  class="main-footer__icon hidden"
+                  src="./assets/img/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/olatunb67146838"
+              >
+                <img
+                  class="main-footer__icon hidden"
+                  src="./assets/img/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://youtube.com/channel/UCBPv5Vn3QJrvfR89kOUhFzQ"
+              >
+                <img
+                  class="main-footer__icon hidden"
+                  src="./assets/img/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/olatunbosun.opeyemi.9"
+              >
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none hidden"
+                  src="./assets/img/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2 hidden">
+            <p class="main-footer__short-desc">
+              Coding dreams into reality, one line at a time.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower hidden">
+          &copy; Copyright 2023. Made by
+          <a rel="noreferrer" target="_blank" href="#">Opeyemi Olatunbosun</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
