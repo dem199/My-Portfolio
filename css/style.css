@@ -718,17 +718,20 @@ textarea {
   }
 }
 
-.hidden{
-      opacity: 0;
-      transition: all 1s;
-      filter: blur(5px);
-      transform: translateX(-100%);
+
+
+
+  .hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
 }
-  
+
 .show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
   
 .hidden:nth-child(2){
@@ -777,6 +780,7 @@ textarea {
 .hidden:nth-child(13){
   transition-delay: 2400ms;
 }
+
 
 @media only screen and (min-width: 112.5em){
   html {
@@ -906,7 +910,7 @@ textarea {
   }
 
   .home-hero {
-    background:  url(../../assets/img/IMG_E7486.JPG);
+    background:  url(../assets/img/IMG_E7486.JPG);
     background-position:left;
     background-size:cover;
     background-repeat: no-repeat;
