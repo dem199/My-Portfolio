@@ -23,7 +23,7 @@ In the Projects section, you'll find a collection of my notable projects. Each p
 
 Feel free to explore each project and experience the functionality and design I implemented.
 
-# About
+## About
 
 The About section provides detailed information about me, including my background, experience, and the technologies and tools I am proficient in.
 
