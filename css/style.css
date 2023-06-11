@@ -564,15 +564,18 @@ textarea {
   display: none;
   width: 3rem;
   padding: 2.2rem 0;
+ 
 }
 
 .header__main-ham-menu {
-  color: white;
+  border: 2px solid #fff;
   width: 100%;
+  
 }
 
 .header__main-ham-menu-close {
   width: 100%;
+  border: 2px solid #fff;
 }
 
 .header__sm-menu {
