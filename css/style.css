@@ -181,7 +181,7 @@ textarea {
   background: #fff;
   border: 2px solid rgba(var(--main-color), 1);
   box-shadow: none;
-  padding: calc(1.5rem - 2px) calc(5rem - 2px);
+  
 }
 
 .sec-pad {
